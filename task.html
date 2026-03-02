@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slide_1">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container" style="grid-template-columns: 1fr 1fr 1fr" class="d-grid gap-0 row-gap-3">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand text-white dancing-script fs-1" href="#">Feane</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!-- <div style="grid-template-columns: 1fr 1fr 1fr 1fr;" class="d-grid gap-3 column-gap-1"> -->
+                        <li class="nav-item ms-5">
+                            <a class="nav-link active text-warning  hover_1" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white hover_1" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white hover_1" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white hover_1" href="#">book Table</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </div>
+        <div style="grid-template-columns: 1fr 1fr 1fr;" class="d-grid gap-3 column-gap-1"> -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white hover_1" href="#"><i class="fa-solid fa-user"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white hover_1" href="#"><i
+                                    class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white hover_1" href="#"><i
+                                    class="fa-solid fa-magnifying-glass"></i></a>
+                        </li>
+
+                        <!-- </div> -->
+                        <button type="button"
+                            class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill">Order
+                            Now</button>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </nav>
+        <div class="f_slide " style="height: 500px; width: 800px;">
+            <div id="carouselExampleIndicators"
+                class="carousel slide w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                
+                <div class="carousel-inner" style="max-width: 400px;">
+                    <div class="carousel-item active">
+                        <h2 class="text-white dancing-script fs-1">Fast Food Restaurant</h2>
+                        <p class="text-white">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad
+                            mollitia
+                            laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore,
+                            iste
+                            magni quos nihil ducimus libero ipsam.</p>
+                        <button type="button"
+                            class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill">Order
+                            Now</button>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="text-white dancing-script fs-1">Fast Food Restaurant</h2>
+                        <p class="text-white">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad
+                            mollitia
+                            laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore,
+                            iste
+                            magni quos nihil ducimus libero ipsam.</p>
+                        <button type="button"
+                            class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill">Order
+                            Now</button>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="text-white dancing-script fs-1">Fast Food Restaurant</h2>
+                        <p class="text-white">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad
+                            mollitia
+                            laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore,
+                            iste
+                            magni quos nihil ducimus libero ipsam.</p>
+                        <button type="button"
+                            class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill">Order
+                            Now</button>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </div>
+    </div>
+    </div>
+    <div class="slide_2">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-md-6 mb-3 all_box">
+                    <div class="card h-100">
+                        <div class="row g-0 card_1 rounded-2">
+                            <div class="col-md-4  border border-warning border-5 rounded-circle overflow-hidden">
+                                <img src="task-images/o1.jpg"
+                                    class="rounded-circle h-100 d-inline-block w-100 p-0 img_zoom" alt="...">
+                            </div>
+                            <div class="col-md-8 d-flex  align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title text-white dancing-script fs-1">Tasty Thursdays</h5>
+                                    <p class="card-text text-white dancing-script fs-1">20% Off</p>
+                                    <!-- <p class="card-text text-white "><button type="button" class="btn btn-outline-warning"></button></p> -->
+                                    <button type="button"
+                                        class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill">Order
+                                        Now <i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 all_box">
+                    <div class="card h-100">
+                        <div class="row g-0 card_1 rounded-2">
+                            <div class="col-md-4  border border-warning border-5 rounded-circle overflow-hidden">
+                                <img src="task-images/o2.jpg"
+                                    class="rounded-circle h-100 d-inline-block w-100 p-0 img_zoom" alt="...">
+                            </div>
+                            <div class="col-md-8 d-flex  align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title text-white dancing-script fs-1">Pizza Days</h5>
+                                    <p class="card-text text-white dancing-script fs-1">15% Off</p>
+                                    <!-- <p class="card-text text-white "><button type="button" class="btn btn-outline-warning"></button></p> -->
+                                    <button type="button"
+                                        class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill">Order
+                                        Now <i class="fa-solid fa-cart-shopping"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="slide_3">
+        <div class="d-flex justify-content-center align-items-center mb-4">
+            <h2 class=" dancing-script fs-1">Our Menu</h2>
+        </div>
+        <div class="d-flex justify-content-center align-items-center fs-5 gap-5 mb-5">
+            <a href="" class="text-white li_1 d-flex justify-content-center align-items-center rounded-pill black_btn">All</a>
+            <a href="" class="text-black li_1">Burger</a>
+            <a href="" class="text-black li_1">Pizza</a>
+            <a href="" class="text-black li_1">Pasta</a>
+            <a href="" class="text-black li_1">Fries</a>
+        </div>
+        <div class="container text-center  text-md-start">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                <!-- card_1 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f1.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$20</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_2 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f2.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Delicious Burger</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$15</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_3 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f3.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$17</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_4 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f4.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Delicious Pasta</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$18</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_5 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f5.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">French Fries</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$10</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_6 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f6.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Delicious Pizza</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$15</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_7 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f7.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Tasty Burger</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$12</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_8 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f8.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Tasty Burger</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$14</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- card_9 -->
+                <div class="col">
+                    <div class="card all_cards rounded-4 border border-0 overflow-hidden" style=" height: 30rem;">
+
+                        <div
+                            class="card-img-top w-100  overflow-hidden d-flex align-items-center justify-content-center div_img_1">
+                            <img src="task-images/f9.png"
+                                class=" h-50 d-inline-block w-50 p-0 rounded-circle img_zoom img_1" alt="...">
+                        </div>
+                        <div class="card-body card_body text-white">
+                            <h5 class="card-title">Delicious Pasta</h5>
+                            <p class="card-text">Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit,
+                                magnam voluptatem repellendus sed eaque</p>
+                            <div class="d-flex justify-content-between">
+                                <p class="p_1">$10</p>
+                                <a href="" class="text-white  li_1"><Span
+                                        class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                                            class="fa-solid fa-cart-shopping " id="ic_1"></i></Span></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+                
+
+            </div>
+        </div>
+
+        <div class="col d-flex justify-content-center align-items-center">
+                    <button type="button"
+                        class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill my-3 mb-5">View
+                        More</button>
+                </div>
+    </div>
+
+
+    <div class="slide_4 d-flex justify-content-evenly align-items-center ">
+        <div class="card mb-3 div_fean" style="max-width: 1000px; height: 600px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="task-images/about-img.png" class="img-fluid rounded-start w-100" style=" height: 600px;"
+                        alt="...">
+                </div>
+                <div class="col-md-8 ps-5 d-flex  align-items-center">
+                    <div class="card-body " style="max-width: 550px;">
+                        <h5 class="card-title text-white dancing-script fs-1">We Are Feane</h5>
+                        <p class="card-text text-white">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have suffered alteration in some form, by injected humour, or randomised
+                            words which don't look even slightly believable. If you are going to use a passage of Lorem
+                            Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            All</p>
+                        <p class="card-text text-white"><small class="text-body-secondary">Last updated 3 mins
+                                ago</small></p>
+                        <button type="button"
+                            class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill ">read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_5 d-flex justify-content-center align-items-center gap-5 ">
+        <div class="form  " style="width: 400px;">
+            <h2 class="mb-5  dancing-script fs-1">Book A Table</h2>
+            <form action="" class="d-grid row-gap-4">
+                <input type="text" class="form-control border border-secondary-subtle border-2 "
+                    id="exampleFormControlInput1" rows="3" placeholder="Your Name">
+                <input type="text" class="form-control border border-secondary-subtle border-2"
+                    id="exampleFormControlInput1" placeholder="Phone Number">
+                <input type="email" class="form-control border border-secondary-subtle border-2"
+                    id="exampleFormControlInput1" placeholder="Your Email">
+                <select class="form-select border border-secondary-subtle border-2" aria-label="Default select example">
+                    <option selected>How many persons?</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                </select>
+                <input type="date" class="form-control border border-secondary-subtle border-2"
+                    id="exampleFormControlInput1" placeholder="name@example.com">
+
+            </form>
+            <button type="button" class="btn btn-primary btn-lg btn-warning text-white order_btn rounded-pill mt-5">Book
+                Now</button>
+
+        </div>
+        <div class="map ">
+
+            <iframe class="rounded-3"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.686476567928!2d2.1202448759180306!3d41.38089597130049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498f576297baf%3A0x44f65330fe1b04b9!2sSpotify%20Camp%20Nou!5e0!3m2!1sen!2seg!4v1757788590604!5m2!1sen!2seg"
+                width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="slde_6">
+        <h2 class="text-black d-flex justify-content-center align-items-center my-5  dancing-script fs-1">What Says Our Customers</h2>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-3">
+                    <div class="comments d-flex justify-content-center align-items-center">
+                        <div class="comment_box_1 h-50 ">
+                            <div class="comment_1 rounded-3">
+                                <div class="p-3">
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                        veniam</p>
+                                    <h3 class="text-white">joan laporta</h3>
+                                    <p class="text-white">manager</p>
+                                </div>
+                            </div>
+                            <div class="w-100 h-100 my-5">
+                                <img src="task-images/OIP_1.jpeg"
+                                    class="h-25 w-25 rounded-circle border border-warning border-5 rounded-circle"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3 ">
+                    <div class="comments d-flex justify-content-center align-items-center ">
+                        <div class="comment_box_1 h-50 w ">
+                            <div class="comment_1 rounded-3">
+                                <div class="p-3">
+                                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                        veniam</p>
+                                    <h3 class="text-white">hansi flik</h3>
+                                    <p class="text-white">coach manager</p>
+                                </div>
+                            </div>
+                            <div class="w-100 h-100 border-5 my-5">
+                                <img src="task-images/th.jpeg"
+                                    class="h-25 w-25 rounded-circle border border-warning border-5 rounded-circle"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center gap-3 mb-5">
+            <a href="" class="text-white li_1"><Span
+                    class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                        class="fa-solid fa-angle-left"></i></Span></a>
+            <a href="" class="text-white li_1"><Span
+                    class="rounded-circle icon_1 d-flex align-items-center justify-content-center"><i
+                        class="fa-solid fa-angle-right"></i></Span></a>
+
+
+
+
+        </div>
+    </div>
+
+    <div class="footer py-5 text-center text-md-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div class="mb-4">
+                            <h2 class="text-white dancing-script fs-1">Contact Us</h2>
+                        </div>
+                        <p class=""><a href="" class="text-white li_1 hover_1"><i class="fa-solid fa-location-dot"></i>
+                                Location</a></p>
+                        <p class=""><a href="" class="text-white li_1 hover_1"><i class="fa-solid fa-phone"></i> Call
+                                +01 1234567890</a></p>
+                        <p class=""><a href="" class="text-white li_1 hover_1"><i class="fa-solid fa-envelope"></i> Call
+                                +01 1234567890</a></p>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div>
+                        <div class="mb-4">
+                            <h2 class=""><a href="" class="text-white li_1 dancing-script fs-1">fean</a></h2>
+                        </div>
+                        <div class="mb-3">
+                            <p class="text-white">Necessary, making this the first true generator on the Internet. It
+                                uses a dictionary of over 200 Latin words, combined with</p>
+                        </div>
+                        <div class="mb-5">
+                            <a href=""
+                                class="li_1 footer_icon_2 text-black d-inline-flex justify-content-center align-items-center bg-white text-black rounded-circle"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""
+                                class="li_1 footer_icon_2 text-black d-inline-flex justify-content-center align-items-center bg-white text-black rounded-circle"><i
+                                    class="fa-brands fa-twitter"></i></a>
+                            <a href=""
+                                class="li_1 footer_icon_2 text-black d-inline-flex justify-content-center align-items-center bg-white text-black rounded-circle"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""
+                                class="li_1 footer_icon_2 text-black d-inline-flex justify-content-center align-items-center bg-white text-black rounded-circle"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href=""
+                                class="li_1 footer_icon_2 text-black d-inline-flex justify-content-center align-items-center bg-white text-black rounded-circle"><i
+                                    class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                        <p class="text-white">© 2025 All Rights Reserved Bya <a href="" class="text-white li_1">Free
+                                Html Templates</a></p>
+                        <p class="text-white">© Distributed By<a href="" class="text-white li_1">ThemeWagon</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div class="mb-4">
+                            <h2 class="text-white dancing-script fs-1">Opening Hours</h2>
+                        </div>
+                        <p class="text-white">Everyday</p>
+                        <p class="text-white">10.00 Am -10.00 Pm</p>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
